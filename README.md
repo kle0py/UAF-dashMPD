@@ -1,2 +1,2 @@
 # UAF-dashMPD
-Coming soon!
+Tools for managing dashMPD files on the UbiArt Framework.
