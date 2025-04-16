@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:DASH:schema:MPD:2011" xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011" type="static" mediaPresentationDuration="PT142S" minBufferTime="PT1S" profiles="urn:webm:dash:profile:webm-on-demand:2012">
+	<Period id="0" start="PT0S" duration="PT142S">
+		<AdaptationSet id="0" mimeType="video/webm" codecs="vp8" lang="eng" maxWidth="1216" maxHeight="720" subsegmentAlignment="true" subsegmentStartsWithSAP="1" bitstreamSwitching="true">
+			<Representation id="0" bandwidth="498510">
+				<BaseURL>jmcs://jd-contents/AdventurerKids/AdventurerKids_LOW.webm</BaseURL>
+				<SegmentBase indexRange="608-2965">
+					<Initialization range="0-608"/>
+				</SegmentBase>
+			</Representation>
+			<Representation id="1" bandwidth="1806150">
+				<BaseURL>jmcs://jd-contents/AdventurerKids/AdventurerKids_MID.webm</BaseURL>
+				<SegmentBase indexRange="608-3035">
+					<Initialization range="0-608"/>
+				</SegmentBase>
+			</Representation>
+			<Representation id="2" bandwidth="3644803">
+				<BaseURL>jmcs://jd-contents/AdventurerKids/AdventurerKids_HIGH.webm</BaseURL>
+				<SegmentBase indexRange="608-3073">
+					<Initialization range="0-608"/>
+				</SegmentBase>
+			</Representation>
+			<Representation id="3" bandwidth="7441833">
+				<BaseURL>jmcs://jd-contents/AdventurerKids/AdventurerKids_ULTRA.webm</BaseURL>
+				<SegmentBase indexRange="608-3088">
+					<Initialization range="0-608"/>
+				</SegmentBase>
+			</Representation>
+		</AdaptationSet>
+	</Period>
+</MPD>

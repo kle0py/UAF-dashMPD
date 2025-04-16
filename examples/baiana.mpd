@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:DASH:schema:MPD:2011" xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011" type="static" mediaPresentationDuration="PT50.919998S" minBufferTime="PT1S" profiles="urn:webm:dash:profile:webm-on-demand:2012"/>
